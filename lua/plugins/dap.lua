@@ -20,9 +20,12 @@ return {
                         type = "netcoredbg",
                         name = "Launch file",
                         request = "launch",
-                        program = function()
-                            return vim.fn.input("Path to dll: ", vim.fn.getcwd() .. "\\", "file")
-                        end,
+                        program = "C:\\Users\\Ben Norton\\source\\repos\\CDRS\\MVC\\bin\\Debug\\net8.0\\MVC.dll",
+                        -- program = function()
+                        --     return vim.fn.input(
+                        --     "C:\\Users\\Ben Norton\\source\\repos\\CDRS\\MVC\\bin\\Debug\\net8.0\\MVC.dll",
+                        --         vim.fn.getcwd() .. "\\", "file")
+                        -- end,
                         cwd = "${workspaceFolder}",
                     },
                 }
