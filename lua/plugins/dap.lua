@@ -27,6 +27,10 @@ return {
                         --         vim.fn.getcwd() .. "\\", "file")
                         -- end,
                         cwd = "${workspaceFolder}",
+                        env = {
+                            ASPNETCORE_ENVIRONMENT = "Development"
+                        },
+                        stopAtEntry = false,
                     },
                 }
             end
