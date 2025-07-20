@@ -21,10 +21,13 @@ return {
                         name = "Launch file",
                         request = "launch",
                         program = "C:\\Users\\Ben Norton\\source\\repos\\CDRS\\MVC\\bin\\Debug\\net8.0\\MVC.dll",
+                        -- Important note
+                        -- if breakpoints are not hitting then run ':set noshellslash'
                         -- program = function()
-                        --     return vim.fn.input(
-                        --     "C:\\Users\\Ben Norton\\source\\repos\\CDRS\\MVC\\bin\\Debug\\net8.0\\MVC.dll",
-                        --         vim.fn.getcwd() .. "\\", "file")
+                        --     local filePath = vim.fn.getcwd()
+                        --     local cleanedFilePath = filePath:gsub('/', '\\')
+                        --     return vim.fn.input('Path to dll: ', cleanedFilePath .. '\\bin\\Debug\\net8.0\\MVC.dll',
+                        --         'file')
                         -- end,
                         cwd = "${workspaceFolder}",
                         env = {
