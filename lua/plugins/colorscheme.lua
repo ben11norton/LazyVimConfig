@@ -11,7 +11,8 @@ return {
                 FloatBorder = { bg = "#0A0E13" },
             },
             styles = {
-                italic = false
+                italic = false,
+                bold = false
             },
             before_highlight = function(group, highlight, palette)
                 -- change color pallete:
