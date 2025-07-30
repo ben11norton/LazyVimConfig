@@ -24,6 +24,8 @@ return {
                     highlight.fg = palette.love
                 elseif highlight.fg == palette.gold then
                     highlight.fg = "#ea9a97"
+                elseif highlight.fg == palette.love then
+                    highlight.fg = "#d8c6e1"
                 end
             end
         },
