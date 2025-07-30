@@ -6,7 +6,7 @@ return {
             variant = "main",
             dark_variant = "main",
             highlight_groups = {
-                Normal = { bg = "#0A0E13" },
+                Normal = { bg = "#12181E" },
                 NormalFloat = { bg = "#0A0E13" },
                 FloatBorder = { bg = "#0A0E13" },
             },
@@ -17,7 +17,7 @@ return {
             before_highlight = function(group, highlight, palette)
                 -- change color pallete:
                 if highlight.fg == palette.iris then
-                    highlight.fg = palette.rose
+                    highlight.fg = palette.text
                 elseif highlight.fg == palette.foam then
                     highlight.fg = palette.text
                 elseif highlight.fg == palette.pine then
