@@ -17,9 +17,9 @@ return {
             before_highlight = function(group, highlight, palette)
                 -- change color pallete:
                 if highlight.fg == palette.iris then
-                    highlight.fg = "#cdbfd7"
-                elseif highlight.fg == palette.foam then
                     highlight.fg = palette.text
+                elseif highlight.fg == palette.foam then
+                    highlight.fg = "#cdbfd7"
                 elseif highlight.fg == palette.pine then
                     highlight.fg = palette.love
                 elseif highlight.fg == palette.gold then
