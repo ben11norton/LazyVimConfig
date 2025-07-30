@@ -6,7 +6,7 @@ return {
             variant = "main",
             dark_variant = "main",
             highlight_groups = {
-                Normal = { bg = "#12181E" },
+                Normal = { bg = "#11151A" },
                 NormalFloat = { bg = "#0A0E13" },
                 FloatBorder = { bg = "#0A0E13" },
             },
@@ -22,10 +22,9 @@ return {
                     highlight.fg = palette.text
                 elseif highlight.fg == palette.pine then
                     highlight.fg = palette.love
-                elseif highlight.fg == palette.love then
-                    highlight.fg = "#e85c7a"
                 elseif highlight.fg == palette.gold then
-                    highlight.fg = "#ff8082"
+                    -- highlight.fg = "#ff8082"
+                    highlight.fg = "#ffa3a5"
                 end
             end
         },
