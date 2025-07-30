@@ -19,12 +19,11 @@ return {
                 if highlight.fg == palette.iris then
                     highlight.fg = palette.text
                 elseif highlight.fg == palette.foam then
-                    highlight.fg = "#cdbfd7"
+                    highlight.fg = "#d8c6e1"
                 elseif highlight.fg == palette.pine then
                     highlight.fg = palette.love
                 elseif highlight.fg == palette.gold then
-                    -- highlight.fg = "#ff8082"
-                    highlight.fg = "#ffa3a5"
+                    highlight.fg = "#ea9a97"
                 end
             end
         },
