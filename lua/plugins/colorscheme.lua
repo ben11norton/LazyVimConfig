@@ -6,9 +6,35 @@ return {
             variant = "main",
             dark_variant = "main",
             highlight_groups = {
-                Normal = { bg = "#11151A" },
-                NormalFloat = { bg = "#11151A" },
-                FloatBorder = { bg = "#11151A" },
+                -- Base backgrounds
+                Normal                 = { bg = "#11151A" },
+                NormalNC               = { bg = "#11151A" },
+                NormalFloat            = { bg = "#11151A" },
+
+                -- Floating windows and borders
+                FloatBorder            = { bg = "#11151A" },
+                FloatTitle             = { bg = "#11151A" },
+
+                -- LazyVim plugin UIs
+                LazyNormal             = { bg = "#11151A" },
+                MasonNormal            = { bg = "#11151A" },
+
+                -- Telescope
+                TelescopeNormal        = { bg = "#11151A" },
+                TelescopeBorder        = { bg = "#11151A" },
+                TelescopePromptNormal  = { bg = "#11151A" },
+                TelescopePromptBorder  = { bg = "#11151A" },
+                TelescopePromptTitle   = { bg = "#11151A" },
+                TelescopeResultsTitle  = { bg = "#11151A" },
+                TelescopePreviewTitle  = { bg = "#11151A" },
+
+                -- WhichKey popup
+                WhichKeyFloat          = { bg = "#11151A" },
+
+                -- Completion menu (nvim-cmp)
+                Pmenu                  = { bg = "#11151A" },
+                CmpDocumentation       = { bg = "#11151A" },
+                CmpDocumentationBorder = { bg = "#11151A" },
             },
             styles = {
                 italic = false,
@@ -53,19 +79,6 @@ return {
 --     "LazyVim/LazyVim",
 --     opts = {
 --       colorscheme = "poimandres",
---     },
---   },
--- }
-
--- rose pine color theme
--- return{
---
---   { "rose-pine/neovim" },
---
---   {
---     "LazyVim/LazyVim",
---     opts = {
---       colorscheme = "rose-pine",
 --     },
 --   },
 -- }
