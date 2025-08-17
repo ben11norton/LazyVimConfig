@@ -7,34 +7,34 @@ return {
             dark_variant = "main",
             highlight_groups = {
                 -- Base backgrounds
-                Normal                 = { bg = "#11151A" },
-                NormalNC               = { bg = "#11151A" },
-                NormalFloat            = { bg = "#11151A" },
+                Normal                 = { bg = "#161A21" },
+                NormalNC               = { bg = "#161A21" },
+                NormalFloat            = { bg = "#161A21" },
 
                 -- Floating windows and borders
-                FloatBorder            = { bg = "#11151A" },
-                FloatTitle             = { bg = "#11151A" },
+                FloatBorder            = { bg = "#161A21" },
+                FloatTitle             = { bg = "#161A21" },
 
                 -- LazyVim plugin UIs
-                LazyNormal             = { bg = "#11151A" },
-                MasonNormal            = { bg = "#11151A" },
+                LazyNormal             = { bg = "#161A21" },
+                MasonNormal            = { bg = "#161A21" },
 
                 -- Telescope
-                TelescopeNormal        = { bg = "#11151A" },
-                TelescopeBorder        = { bg = "#11151A" },
-                TelescopePromptNormal  = { bg = "#11151A" },
-                TelescopePromptBorder  = { bg = "#11151A" },
-                TelescopePromptTitle   = { bg = "#11151A" },
-                TelescopeResultsTitle  = { bg = "#11151A" },
-                TelescopePreviewTitle  = { bg = "#11151A" },
+                TelescopeNormal        = { bg = "#161A21" },
+                TelescopeBorder        = { bg = "#161A21" },
+                TelescopePromptNormal  = { bg = "#161A21" },
+                TelescopePromptBorder  = { bg = "#161A21" },
+                TelescopePromptTitle   = { bg = "#161A21" },
+                TelescopeResultsTitle  = { bg = "#161A21" },
+                TelescopePreviewTitle  = { bg = "#161A21" },
 
                 -- WhichKey popup
-                WhichKeyFloat          = { bg = "#11151A" },
+                WhichKeyFloat          = { bg = "#161A21" },
 
                 -- Completion menu (nvim-cmp)
-                Pmenu                  = { bg = "#11151A" },
-                CmpDocumentation       = { bg = "#11151A" },
-                CmpDocumentationBorder = { bg = "#11151A" },
+                Pmenu                  = { bg = "#161A21" },
+                CmpDocumentation       = { bg = "#161A21" },
+                CmpDocumentationBorder = { bg = "#161A21" },
             },
             styles = {
                 italic = false,
@@ -45,7 +45,7 @@ return {
                 if highlight.fg == palette.iris then
                     highlight.fg = palette.text
                 elseif highlight.fg == palette.foam then
-                    highlight.fg = "#d8c6e1"
+                    highlight.fg = "#e3c8ec"
                 elseif highlight.fg == palette.pine then
                     highlight.fg = palette.love
                 elseif highlight.fg == palette.gold then
