@@ -45,7 +45,7 @@ return {
                 if highlight.fg == palette.iris then
                     highlight.fg = palette.text
                 elseif highlight.fg == palette.foam then
-                    highlight.fg = "#e3c8ec"
+                    highlight.fg = palette.text
                 elseif highlight.fg == palette.pine then
                     highlight.fg = palette.love
                 elseif highlight.fg == palette.gold then
