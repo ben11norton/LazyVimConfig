@@ -3,8 +3,8 @@ return {
         "rose-pine/neovim",
         name = "rose-pine",
         opts = {
-            variant = "main",
-            dark_variant = "main",
+            variant = "moon",
+            dark_variant = "moon",
             highlight_groups = {
                 -- Base backgrounds
                 Normal                 = { bg = "#161A21" },
@@ -40,18 +40,32 @@ return {
                 italic = false,
                 bold = false
             },
+            -- before_highlight = function(group, highlight, palette)
+            --     -- change color pallete:
+            --     if highlight.fg == palette.iris then
+            --         highlight.fg = palette.text
+            --     elseif highlight.fg == palette.foam then
+            --         highlight.fg = palette.text
+            --     elseif highlight.fg == palette.pine then
+            --         highlight.fg = palette.love
+            --     elseif highlight.fg == palette.gold then
+            --         highlight.fg = "#ea9a97"
+            --     elseif highlight.fg == palette.love then
+            --         highlight.fg = "#d8c6e1"
+            --     end
+            -- end
             before_highlight = function(group, highlight, palette)
                 -- change color pallete:
                 if highlight.fg == palette.iris then
-                    highlight.fg = palette.text
+                    highlight.fg = palette.iris
                 elseif highlight.fg == palette.foam then
                     highlight.fg = palette.text
-                elseif highlight.fg == palette.pine then
-                    highlight.fg = palette.love
+                    -- elseif highlight.fg == palette.pine then
+                    --     highlight.fg = palette.love
                 elseif highlight.fg == palette.gold then
-                    highlight.fg = "#ea9a97"
-                elseif highlight.fg == palette.love then
-                    highlight.fg = "#d8c6e1"
+                    highlight.fg = "#EBBCB9"
+                    -- elseif highlight.fg == palette.love then
+                    --     highlight.fg = palette.pine
                 end
             end
         },
