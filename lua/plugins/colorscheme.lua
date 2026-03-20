@@ -35,6 +35,11 @@ return {
                 Pmenu                  = { bg = "#161A21" },
                 CmpDocumentation       = { bg = "#161A21" },
                 CmpDocumentationBorder = { bg = "#161A21" },
+
+                -- -- C# love highlighting
+                -- ["@attribute"]         = { fg = "#eb6f92" },
+                -- ["@attribute.c_sharp"] = { fg = "#eb6f92" },
+
             },
             styles = {
                 italic = false,
@@ -57,15 +62,13 @@ return {
             before_highlight = function(group, highlight, palette)
                 -- change color pallete:
                 if highlight.fg == palette.iris then
-                    highlight.fg = palette.iris
+                    highlight.fg = palette.foam
                 elseif highlight.fg == palette.foam then
                     highlight.fg = palette.text
-                    -- elseif highlight.fg == palette.pine then
-                    --     highlight.fg = palette.love
+                    -- elseif highlight.fg == palette.love then
+                    --     highlight.fg = "#f285a4"
                 elseif highlight.fg == palette.gold then
                     highlight.fg = "#EBBCB9"
-                    -- elseif highlight.fg == palette.love then
-                    --     highlight.fg = palette.pine
                 end
             end
         },
